@@ -16,23 +16,24 @@ Follow these steps to set up and run F4llTokens on your machine.
 
 - Python 3.x
 
-### Installation
+### Usage
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/F4llDev/F4llT`okens.git
+   git clone https://github.com/F4llDev/F4llTokens.git
    ```
+2. Install Dependencies
+      ```bash
+      pip install -r requirements.txt
+      ```
 
-2. Install the dependencies:
-
+3. Run the tool either doing
    ```bash
-   pip install -r requirements.txt
+   python main.pyw
    ```
-
-### Usage
-    Run the tool by running the .exe
-
-## Configuratiom
-   Webhook Integration: Set up a Discord webhook to receive notifications for valid tokens. Specify the webhook URL during the tool's runtime.
+   Or double clicking on the file main.pyw
+   
+### Configuration
+Webhook Integration: Set up a Discord webhook to receive notifications for valid tokens. Specify the webhook URL during the tool's runtime.
    
